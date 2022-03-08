@@ -1,0 +1,16 @@
+footer{
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    & ul{
+        list-style: none;
+        & li:hover{
+         color: red;
+
+        }
+
+    }
+    
+}
