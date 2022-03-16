@@ -42,7 +42,7 @@ h1 {
   background-color: aquamarine;
   text-align: center; }
 
-.estructura1 img {
+.estructura1 img, .estructura4 img {
   display: flex;
   display: inline;
   margin: 15px;
@@ -52,7 +52,7 @@ h1 {
   border-radius: 20px;
   border-color: white; }
 
-.estructura1 h2 {
+.estructura1 h2, .estructura4 h2 {
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: red;
@@ -60,7 +60,7 @@ h1 {
   margin-right: 15px;
   color: azure; }
 
-.estructura1 p {
+.estructura1 p, .estructura4 p {
   font-size: 25px;
   color: white;
   text-align: justify;
@@ -116,3 +116,30 @@ h1 {
   text-align: justify;
   margin-left: 20px;
   margin-right: 20px; }
+
+.estructura4 {
+  background-color: white; }
+  .estructura4 p {
+    color: black; }
+
+.tragos img {
+  width: 380px;
+  height: 380px;
+  display: flex;
+  display: inline;
+  margin: 28px;
+  border-style: double;
+  border-radius: 30px;
+  border-color: red; }
+
+.tragos p {
+  font-size: 25px;
+  color: white;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.tragos h6 {
+  background-color: red;
+  color: white;
+  font-size: 30px; }

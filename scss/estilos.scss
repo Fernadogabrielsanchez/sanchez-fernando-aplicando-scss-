@@ -26,6 +26,7 @@ body{
 .estructuraglobal{
     display: flex;
     justify-content: center;
+    
 
     img {
         margin: 10px;
@@ -131,3 +132,46 @@ h1 {
     }
 
    }
+
+   .estructura4{
+       @extend .estructura1;
+       background-color: white;
+
+       p{
+            color: black;
+       }
+      
+
+   }
+
+   @mixin sizes($whidth, $height) {
+       width: $height;
+       height: $height;
+   }
+
+   .tragos{
+       img{
+           @include sizes(380px , 380px);
+           display: flex;
+           display: inline;
+           margin: 28px;
+           border-style:double;
+           border-radius: 30px;
+           border-color: red;
+       }
+       p{
+        font-size: 25px;
+        color:$color_texto;
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;  
+       }
+       h6 {
+           background-color: red;
+           color: white;
+           font-size: 30px;
+
+       }
+   }
+
+   
